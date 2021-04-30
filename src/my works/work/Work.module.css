@@ -1,0 +1,28 @@
+.work{
+    width: 350px;
+    background-color: #939191;
+    min-height: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img{
+    height: 200px;
+    width: 350px;
+    background-color: #fff;
+}
+
+.descriptionBlock{
+    background-color: #727272;
+    width: 100%;
+}
+.title {
+    background-color: #f3caca;
+    text-align: left;
+}
+
+.description{
+    background-color: #ffc6c6;
+}
