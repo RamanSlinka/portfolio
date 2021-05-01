@@ -12,7 +12,7 @@ function MyWorks(props) {
                 <h2 className={s.title}>My works</h2>
                 <div className={s.works}>
                     <Work
-                        img={`<img src="###" alt="my project">`}
+                        img={'picture'}
                         title={'the name of the project'}
                         description={'lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem'}
                     />

@@ -1,0 +1,11 @@
+.distantWorkBlock {
+    background-color: #8a85dc;
+    height: 300px;
+}
+
+.descriptionBlock {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
