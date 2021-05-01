@@ -7,13 +7,12 @@ function Contacts () {
         <div className={s.contactsBlock}>
             <div className={`${styleContainer.container} ${s.contacts}`}>
                 <h3>Contacts</h3>
-                <div >
                     <form action="URL" className={s.form}>
                         <input type="text" className={s.input}/>
                         <input type="text" className={s.input}/>
                         <textarea placeholder={'Enter your question'} ></textarea>
                     </form>
-                </div>
+
                 <button className={styleContainer.button}>Send</button>
             </div>
 
