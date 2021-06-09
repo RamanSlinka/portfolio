@@ -1,5 +1,5 @@
 .work{
-    width: 250px;
+    width: 450px;
     background-color: #939191;
     min-height: 1px;
     display: flex;
@@ -9,8 +9,8 @@
 }
 
 .imageContainer{
-    height: 200px;
-    width: 250px;
+    height: 300px;
+   /*min-width: 450px;*/
     background-color: #d2a54c;
 
     display: flex;
@@ -28,7 +28,7 @@
 
 .descriptionBlock{
     background-color: #727272;
-    width: 100%;
+    /*width: 100%;*/
 }
 .title {
     background-color: #f3caca;

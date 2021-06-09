@@ -6,7 +6,6 @@ function Work(props) {
     return (
         <div className={s.work}>
             <div className={s.imageContainer}>
-
                 <a href="###" className={s.link}>Look</a>
             </div>
             <div className={s.descriptionBlock}>

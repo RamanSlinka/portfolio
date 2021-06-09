@@ -12,8 +12,7 @@ function Contacts () {
                         <input type="text" className={s.input}/>
                         <textarea placeholder={'Enter your question'} ></textarea>
                     </form>
-
-                <button className={styleContainer.button}>Send</button>
+                <button type="submit" className={styleContainer.button}>Send</button>
             </div>
 
         </div>

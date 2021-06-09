@@ -1,15 +1,38 @@
 .worksBlock{
     min-height: 100vh;
-    background-color: #40fa0c;
+    background-color:#1f1f20;
 }
 .worksContainer{
     flex-direction: column;
     justify-content: flex-start;
+    flex-wrap: nowrap;
 }
 
 .title {
-    background-color: #929292;
+position: relative;
+    margin-bottom: 30px;
+}
 
+.title h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+}
+
+.title::before{
+    content: '';
+    position: absolute;
+    background: #4e93e6;
+    width: 55px;
+    height: 2px;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }
 
 .works {
@@ -18,4 +41,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1129px){
+    .works{
+        justify-content: center;
+    }
 }
