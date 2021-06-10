@@ -1,59 +1,63 @@
-.project {
-    width: 450px;
-    background-color: #252527;
-    min-height: 1px;
-    display: flex;
-    flex-direction: column;
+@import "./../../common/styles/sass/variables";
+@import "./../../common/styles/sass/mixins";
 
-    .imageContainer {
-        height: 300px;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: relative;
-        &::before{
-            position: absolute;
-            content: '';
-            background-color: #1f1f20;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            opacity: 0.3;
-        }
-        .link {
-            background-color: #252527;
-            width: 100px;
-            height: 25px;
-            text-decoration: none;
-            text-align: center;
-            font-family: 'Poppins', sans-serif;
-            color: white;
-            position: relative;
-            z-index: 1;
-        }
+.project {
+  width: 450px;
+  background-color: $bgSecondColor;
+  min-height: 1px;
+  display: flex;
+  flex-direction: column;
+
+  .imageContainer {
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: $bgSecondColor;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.3;
     }
-    .projectInfo {
-        padding: 25px 20px;
-        .projectTitle {
-            font-family: 'Josefin Sans', sans-serif;
-            font-size: 16px;
-            letter-spacing: 1px;
-            margin: 0 0 5px;
-            line-height: 1.2px;
-            color: white;
-        }
-        .description {
-            font-family: 'Poppins', sans-serif;
-            line-height: 1.8;
-            font-weight: 400;
-            font-size: 14px;
-            color: white;
-        }
+
+    .link {
+      background-color: $primaryColor;
+      width: 100px;
+      height: 30px;
+      text-decoration: none;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      color: $textColor;
+      position: relative;
+      z-index: 1;
     }
+  }
+
+  .projectInfo {
+    padding: 25px 20px;
+
+    .projectTitle {
+      @include text($titleFontFamily, 16px, 1.2px);
+
+      letter-spacing: 1px;
+      margin: 0 0 5px;
+    }
+
+    .description {
+      @include text($textFontFamily, 14px, 1.8);
+
+      font-weight: 400;
+    }
+  }
 }
 
 

@@ -18,7 +18,7 @@ function Projects(props) {
     return (
         <div className={s.projectsBlock}>
             <div className={`${styleContainer.container} ${s.projectsContainer}`}>
-               <Title text={'My works'}/>
+               <Title text={'Projects'}/>
                 <div className={s.projects}>
                     <Project
                         style={socialNetwork}

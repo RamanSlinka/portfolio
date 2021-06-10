@@ -1,0 +1,31 @@
+@import "./../../styles/sass/variables";
+
+.title {
+    position: relative;
+    margin-bottom: 30px;
+    h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        margin: 0;
+        font-weight: 300;
+        color: $textColor;
+        text-transform: capitalize;
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: 5px;
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        background: $primaryColor;
+        width: 55px;
+        height: 2px;
+        bottom: -30px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+}
+
+
+
+
+
