@@ -1,0 +1,68 @@
+.project {
+    width: 450px;
+    background-color: #252527;
+    min-height: 1px;
+    display: flex;
+    flex-direction: column;
+
+    .imageContainer {
+        height: 300px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        &::before{
+            position: absolute;
+            content: '';
+            background-color: #1f1f20;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.3;
+        }
+        .link {
+            background-color: #252527;
+            width: 100px;
+            height: 25px;
+            text-decoration: none;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            position: relative;
+            z-index: 1;
+        }
+    }
+    .projectInfo {
+        padding: 25px 20px;
+        .projectTitle {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            letter-spacing: 1px;
+            margin: 0 0 5px;
+            line-height: 1.2px;
+            color: white;
+        }
+        .description {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.8;
+            font-weight: 400;
+            font-size: 14px;
+            color: white;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

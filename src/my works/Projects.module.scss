@@ -1,0 +1,25 @@
+.projectsBlock {
+  min-height: 100vh;
+  background-color: #1f1f20;
+
+  .projectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+    .projects {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      @media screen and (max-width: 1129px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+
+

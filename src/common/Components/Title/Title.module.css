@@ -1,15 +1,6 @@
-.worksBlock{
-    min-height: 100vh;
-    background-color:#1f1f20;
-}
-.worksContainer{
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-}
 
 .title {
-position: relative;
+    position: relative;
     margin-bottom: 30px;
 }
 
@@ -33,18 +24,4 @@ position: relative;
     bottom: -30px;
     left: 50%;
     transform: translate(-50%, 50%);
-}
-
-.works {
-    border: 1px solid;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-@media screen and (max-width: 1129px){
-    .works{
-        justify-content: center;
-    }
 }
