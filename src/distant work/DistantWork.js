@@ -1,6 +1,6 @@
 import React from 'react'
 import s from './DistantWork.module.css'
-import styleContainer from "../common/styles/Container.module.css";
+import styleContainer from "../common/styles/Container.module.scss";
 
 function DistantWork() {
     return (

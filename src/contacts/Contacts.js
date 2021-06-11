@@ -1,6 +1,7 @@
 import React from 'react'
-import s from './Contacts.module.css'
-import styleContainer from '../common/styles/Container.module.css'
+import s from './Contacts.module.scss'
+import styleContainer from '../common/styles/Container.module.scss'
+import btn from "../common/styles/sass/button.scss"
 
 function Contacts () {
     return (

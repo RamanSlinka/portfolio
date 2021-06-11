@@ -11,12 +11,11 @@
   width: 550px;
   height: 156px;
   color: $textColor;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: $titleFontFamily;
 
   span {
     font-size: 16px;
   }
-
   h1 {
     font-size: 40px;
     padding: 10px 0 10px;
@@ -24,7 +23,6 @@
     line-height: 1.2;
     letter-spacing: 5px;
     margin: 0;
-
     span {
       font-size: 50px;
       position: relative;
@@ -38,7 +36,7 @@
         height: 20px;
         width: 100px;
         z-index: -1;
-        background: #4e93e6;
+        background: $primaryColor;
       }
     }
   }

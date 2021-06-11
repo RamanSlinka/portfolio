@@ -1,0 +1,13 @@
+@import "../common/styles/sass/variables";
+
+.nav {
+    font-family:$textFontFamily ;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: $textColor;
+    position: relative;
+    z-index: 1;
+    padding-left: 10px;
+}

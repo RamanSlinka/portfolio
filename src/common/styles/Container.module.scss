@@ -1,3 +1,6 @@
+@import "../../common/styles/sass/variables.scss";
+
+
 .container {
     border: 1px solid;
     height: 100%;
@@ -7,12 +10,15 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+
+
 }
 
 .button {
     width: 100px;
     height: 25px;
     margin-bottom: 30px;
-    background-color: #f80202;
+    background-color: $primaryColor;
+    border: none;
 
 }
