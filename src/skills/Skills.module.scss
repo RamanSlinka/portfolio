@@ -1,11 +1,19 @@
+@import "../common/styles/sass/variables";
+
 .skillsBlock {
     min-height: 100vh;
-    background-color: #faa10c;
+    background-color: $bgSecondColor;
+
 }
 
 .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
+    @media screen and (max-width: 1129px) {
+        max-width: 100%;
+        justify-content: center;
+        margin: 0 auto;
+    }
 }
 
 .title {
