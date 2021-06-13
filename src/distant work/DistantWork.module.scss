@@ -1,0 +1,13 @@
+@import "../common/styles/sass/variables";
+
+.distantWorkBlock {
+  background-color: $bgSecondColor;
+  min-height: 30vh;
+  .descriptionBlock {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+

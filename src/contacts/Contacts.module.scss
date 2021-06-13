@@ -1,20 +1,43 @@
-.contactsBlock{
-    height: 70vh;
-    background-color: #fd5a5a;
-}
-.contacts{
+@import "../common/styles/sass/variables";
+
+.contactsBlock {
+  height: 50vh;
+  background-color: $bgColor;
+
+  .contacts {
     display: flex;
     flex-direction: column;
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      width: 350px;
+      @media (max-width: 445px) {
+        width: 250px;
+      }
+
+      .input {
+        margin-bottom: 10px;
+        height: 25px;
+        background-color: $bgSecondColor;
+        font-family: $textFontFamily;
+        border: 0.5px solid gray;
+        color: gray;
+
+      }
+
+      textarea {
+        height: 70px;
+        background-color: $bgSecondColor;
+        font-family: $textFontFamily;
+        border: 0.5px solid gray;
+        color: gray;
+      }
+    }
+  }
 }
 
-.form {
-    border: 1px solid;
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-}
 
-.input{
-    margin-bottom: 10px;
-    height: 25px;
-}
+
+
+

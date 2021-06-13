@@ -13,7 +13,7 @@ function Main() {
         <div className={s.mainBlock}>
             <div className={styleContainer.container}>
                 <div className={s.text}>
-                    <span>Hi There</span>
+                    <span className={s.greeting}>Hi There</span>
                     <h1>
                         I am &nbsp;
                         <span>   Raman Slinka</span>

@@ -1,19 +1,23 @@
 import React from 'react'
 import s from './Contacts.module.scss'
 import styleContainer from '../common/styles/Container.module.scss'
-import btn from "../common/styles/sass/button.scss"
+import Title from "../common/Components/Title/Title";
 
 function Contacts () {
     return (
         <div className={s.contactsBlock}>
             <div className={`${styleContainer.container} ${s.contacts}`}>
-                <h3>Contacts</h3>
+                <Title text={'Contact'}/>
                     <form action="URL" className={s.form}>
-                        <input type="text" className={s.input}/>
-                        <input type="text" className={s.input}/>
-                        <textarea placeholder={'Enter your question'} ></textarea>
+                        <input type="text" className={s.input}
+                        placeholder={'name'}
+                        />
+                        <input type="email" className={s.input}
+                        placeholder={'E-mail'}
+                        />
+                        <textarea placeholder={'Enter your question'} />
                     </form>
-                <button type="submit" className={styleContainer.button}>Send</button>
+                <button type="submit" className={styleContainer.button}>Send message</button>
             </div>
 
         </div>
