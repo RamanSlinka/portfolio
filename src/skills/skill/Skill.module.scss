@@ -1,12 +1,27 @@
+@import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
+
 .skill{
     width: 250px;
-    background-color: #939191;
+    color: $textColor;
+    font-family: $textFontFamily;
     min-height: 1px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-bottom: 5px;
+    h3{
+
+        @include text($titleFontFamily, 16px, 1.2px);
+
+        margin: 15px 0 15px;
+        padding: 0;
+    }
+    span{
+        margin-top: 5px;
+        @include text($textFontFamily, 14px, 1.8);
+    }
 }
 
 .icon{
