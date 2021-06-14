@@ -4,8 +4,10 @@ import styleContainer from '../common/styles/Container.module.scss'
 import Skill from "./skill/Skill";
 import Title from "../common/Components/Title/Title";
 // import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-// import {faReact} from '@fortawesome/free-brands-svg-icons'
-// import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
+//  import {f13b} from '@fortawesome/free-brands-svg-icons'
+// import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
+
 
 
 function Skills() {
@@ -14,11 +16,17 @@ function Skills() {
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
                 <Title text={'Skills'}/>
                 <div className={s.skills}>
-                    <Skill title={'HTML'}
-                           description={'lorem lorem lorem lorem'}
+                    {/*<FontAwesomeIcon icon={faEnvelope}/>*/}
+                    <Skill
+                        icon={faEnvelope}
+                        title={'HTML'}
+                        description={'lorem lorem lorem lorem'}
                     />
-                    <Skill title={'CSS'}
-                           description={'lorem lorem lorem lorem'}
+                    <Skill
+                        // icon={f13b}
+
+                        title={'CSS'}
+                        description={'lorem lorem lorem lorem'}
                     />
                     <Skill title={'SCSS'}
                            description={'lorem lorem lorem lorem'}
@@ -26,7 +34,7 @@ function Skills() {
                     <Skill
                         title={'JS'}
                         description={'lorem lorem lorem lorem'}
-                        />
+                    />
                     <Skill title={'React'}
                            description={'lorem lorem  ta-ta-tu ta-ta-ta ta-ta lorem'}
                     />
