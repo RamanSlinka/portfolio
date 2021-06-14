@@ -9,6 +9,7 @@ function DistantWork() {
             <div className={`${styleContainer.container} ${s.descriptionBlock}`}>
                 <Title text={'I will consider the option of remote work'}/>
                 <div>
+
                     <button className={styleContainer.button}>hire me</button>
                 </div>
             </div>

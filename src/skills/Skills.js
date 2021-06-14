@@ -3,10 +3,13 @@ import s from './Skills.module.scss'
 import styleContainer from '../common/styles/Container.module.scss'
 import Skill from "./skill/Skill";
 import Title from "../common/Components/Title/Title";
-import {faEnvelopeOpen} from '@fortawesome/free-solid-svg-icons'
-import { faReact, faSass, faHtml5, faCss3, faJs,
-    faGithub, faGit, faReacteurope,faLinkedin, faTelegram } from '@fortawesome/free-brands-svg-icons'
+import {SiTypescript, SiRedux, SiHtml5, SiCss3,SiJavascript, SiReact} from 'react-icons/si';
+import { DiSass} from 'react-icons/di';
+import { FaGit} from 'react-icons/fa';
 
+import {faEnvelopeOpen} from '@fortawesome/free-solid-svg-icons'
+import {faReact, faSass,
+    faHtml5, faCss3, faJs, faGit, faReacteurope} from '@fortawesome/free-brands-svg-icons'
 
 
 function Skills() {
@@ -16,52 +19,52 @@ function Skills() {
                 <Title text={'Skills'}/>
 
                 <div className={s.skills}>
-                    {/*<FontAwesomeIcon icon={faEnvelope}/>*/}
+
                     <Skill
-                        icon={faHtml5}
+                        icon={<SiHtml5/>}
                         title={'HTML'}
                         description={'lorem lorem lorem lorem'}
                     />
                     <Skill
-                        icon={faCss3}
+                        icon={<SiCss3/>}
 
                         title={'CSS'}
                         description={'lorem lorem lorem lorem'}
                     />
                     <Skill
-                        icon={faSass}
+                        icon={<DiSass/>}
                         title={'SCSS'}
-                           description={'lorem lorem lorem lorem'}
-                    />
-                    <Skill
-                        icon={faJs}
-                        title={'JS'}
                         description={'lorem lorem lorem lorem'}
                     />
                     <Skill
-                        icon={faReact}
+                        icon={<SiJavascript/>}
+                        title={'Java Script'}
+                        description={'lorem lorem lorem lorem'}
+                    />
+                    <Skill
+                        icon={<SiReact/>}
                         title={'React'}
-                           description={'lorem lorem  ta-ta-tu ta-ta-ta ta-ta lorem'}
+                        description={'lorem lorem  ta-ta-tu ta-ta-ta ta-ta lorem'}
                     />
                     <Skill
-                        icon={faReacteurope}
+                        icon={<SiRedux/>}
                         title={'Redux'}
-                           description={'lorem lorem lorem lorem'}
+                        description={'lorem lorem lorem lorem'}
                     />
                     <Skill
-                        icon={faEnvelopeOpen}
+                        icon={<SiRedux/>}
                         title={'Redux Thunk'}
-                           description={'lorem lorem lorem lorem'}
+                        description={'lorem lorem lorem lorem'}
                     />
                     <Skill
-
-                        title={'TS'}
-                           description={'lorem lorem lorem lorem'}
+                        icon={<SiTypescript/>}
+                        title={'Type Script'}
+                        description={'lorem lorem lorem lorem'}
                     />
                     <Skill
-                        icon={faGit}
+                        icon={<FaGit/>}
                         title={'Git'}
-                           description={'lorem lorem lorem lorem'}
+                        description={'lorem lorem lorem lorem'}
                     />
 
 
