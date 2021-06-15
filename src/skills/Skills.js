@@ -7,9 +7,7 @@ import {SiTypescript, SiRedux, SiHtml5, SiCss3,SiJavascript, SiReact} from 'reac
 import { DiSass} from 'react-icons/di';
 import { FaGit} from 'react-icons/fa';
 
-import {faEnvelopeOpen} from '@fortawesome/free-solid-svg-icons'
-import {faReact, faSass,
-    faHtml5, faCss3, faJs, faGit, faReacteurope} from '@fortawesome/free-brands-svg-icons'
+
 
 
 function Skills() {

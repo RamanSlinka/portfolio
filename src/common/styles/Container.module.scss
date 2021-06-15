@@ -10,11 +10,82 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-
-
 }
 
+
+
+*{
+    box-sizing: border-box;
+}
+
+@keyframes blink {
+    0% {
+        left: -130%;
+    }
+    100% {
+        left: 130%;
+    }
+}
+
+
+
+
 .button {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    outline: none;
+}
+
+.button::after {
+    display: block;
+    content: '';
+    position: absolute;
+
+    left: -130%;
+    top: 0;
+    height: 100%;
+    width: 20%;
+
+    transform: skew(45deg);
+    background-color: $primaryColor;
+    opacity: 0.7;
+    z-index: 14;
+}
+
+.button:hover::after {
+    animation: blink 0.55s ease;
+}
+
+.button:hover::before {
+    display: block;
+    content: '';
+    position: absolute;
+
+    left: -100vw;
+    top: 0;
+    height: 100vh;
+    width: 300vw;
+
+    background-color: #fff;
+    opacity: 0.2;
+    z-index: 7;
+}
+
+.button:focus{
+    width: 150px;
+    //outline: #667af6 solid 1px;
+}
+
+.button:active{
+    background: $primaryColor;
+}
+
+
+.button1 {
     width: 100px;
     height: 25px;
     margin:30px 0  30px;

@@ -1,31 +1,41 @@
 @import "../../common/styles/sass/variables";
 @import "../../common/styles/sass/mixins";
 
-.skill{
-    width: 230px;
-    color: $textColor;
-    font-family: $textFontFamily;
-    min-height: 1px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 5px;
-    h3{
-        @include text($titleFontFamily, 16px, 1.2px);
+.skill {
+  width: 230px;
+  color: $textColor;
+  font-family: $textFontFamily;
+  min-height: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 5px;
 
-        margin: 20px 0 10px;
-        padding: 0;
-    }
-    span{
-        margin:  0 0 10px;
-        @include text($textFontFamily, 14px, 1.8);
-    }
+  h3 {
+    @include text($titleFontFamily, 16px, 1.2px);
+
+    margin: 40px 0 10px;
+    padding: 0;
+  }
+
+  span {
+    margin: 0 0 30px;
+    @include text($textFontFamily, 14px, 1.8);
+  }
 }
 
-.icon{
-    height: 60px;
+.iconContainer {
     width: 80px;
-color: $primaryColor ;
-    font-size: 60px;
+    height: 80px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    background-color: rgba(64, 64, 64, 0.78);
+
+}
+.icon{
+    color: $primaryColor;
+    font-size: 45px;
+    transform: rotate(-45deg);
+    padding-top: 13.5px;
 }
