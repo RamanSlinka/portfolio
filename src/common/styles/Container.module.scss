@@ -14,9 +14,10 @@
 
 
 .descriptionBtn{
-    font-family:$textFontFamily ;
+    font-family:$titleFontFamily ;
     text-transform: uppercase;
     position: relative;
+    color: white;
 }
 
 *{
@@ -40,9 +41,11 @@
     margin: 10px;
     overflow: hidden;
     cursor: pointer;
-    width: 50px;
+    width: 70px;
     height: 30px;
     outline: none;
+    border: none;
+    background-color: $primaryColor;
 }
 
 .button::after {
@@ -56,7 +59,7 @@
     width: 20%;
 
     transform: skew(45deg);
-    background-color: $primaryColor;
+    background-color: white;
     opacity: 0.7;
     z-index: 14;
 }

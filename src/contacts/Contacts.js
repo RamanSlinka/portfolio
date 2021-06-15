@@ -17,7 +17,7 @@ function Contacts () {
                         />
                         <textarea placeholder={'Enter your question'} />
                     </form>
-                <button type="submit" className={styleContainer.button}>Send message</button>
+                <button type="submit" className={styleContainer.button}><span className={styleContainer.descriptionBtn}>Send message</span></button>
             </div>
 
         </div>
