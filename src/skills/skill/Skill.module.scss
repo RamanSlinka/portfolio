@@ -30,8 +30,8 @@
     height: 80px;
     transform: rotate(45deg);
     overflow: hidden;
-    background-color: rgba(64, 64, 64, 0.78);
-
+    //background-color: rgba(64, 64, 64, 0.78);
+  background-color: $bgColor;
 }
 .icon{
     color: $primaryColor;
