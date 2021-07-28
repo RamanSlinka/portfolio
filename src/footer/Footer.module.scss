@@ -25,13 +25,17 @@
       }
 
       .SN {
+
         font-size: 20px;
         min-width: 150px;
         min-height: 50px;
 
+        a {
+          @include text($textFontFamily, 20px, 1.8);
+          color: $primaryColor ;
+          text-decoration: none;
+        }
 
-        @include text($textFontFamily, 20px, 1.8);
-        color: $primaryColor;
       }
     }
 

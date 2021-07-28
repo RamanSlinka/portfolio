@@ -84,7 +84,9 @@
 }
 
 .button:focus{
-    width: 150px;
+   width: 150px;
+    transition: all 0.3s ease-in-out;
+    background: #0243b3;
     //outline: #667af6 solid 1px;
 }
 
@@ -93,11 +95,11 @@
 }
 
 
-.button1 {
-    width: 100px;
-    height: 25px;
-    margin:30px 0  30px;
-    background-color: $primaryColor;
-    border: none;
-
-}
+//.button1 {
+//    width: 100px;
+//    height: 25px;
+//    margin:30px 0  30px;
+//    background-color: $primaryColor;
+//    border: none;
+//
+//}

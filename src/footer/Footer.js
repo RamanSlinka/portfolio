@@ -13,17 +13,25 @@ function Footer() {
                 <Title text={'Raman Slinka'}/>
                 <div className={s.socialNetworks}>
                     <div className={s.SN}>
+                        <a href="">Telegram
                         <FontAwesomeIcon icon={faTelegram}/>
-                        Telegram</div>
+                        </a>
+                        </div>
                     <div className={s.SN}>
+                        <a href="https://github.com/RamanSlinka">
                         <FontAwesomeIcon icon={faGithub}/>
-                        gitHub</div>
+                        gitHub
+                        </a></div>
                     <div className={s.SN}>
+                        <a href="">
                         <FontAwesomeIcon icon={faLinkedin}/>
-                        linkedIn</div>
+                        linkedIn
+                        </a></div>
                     <div className={s.SN}>
+                        <a href="">
                         <FontAwesomeIcon icon={faEnvelope}/>
-                        gmail</div>
+                        gmail
+                        </a></div>
                 </div>
                 <h3>© 2021 All rights reserved</h3>
             </div>
