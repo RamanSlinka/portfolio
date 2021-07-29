@@ -5,7 +5,7 @@ import Title from "../common/Components/Title/Title";
 
 function Contacts () {
     return (
-        <div className={s.contactsBlock}>
+        <div id='contact' className={s.contactsBlock}>
             <div className={`${styleContainer.container} ${s.contacts}`}>
                 <Title text={'Contact'}/>
                     <form action="URL" className={s.form}>
