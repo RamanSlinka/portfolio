@@ -27,11 +27,11 @@
     }
 
     .greeting {
-      font-size: 16px;
+      font-size: 20px;
     }
 
     h1 {
-      font-size: 40px;
+      font-size: 50px;
       padding: 10px 0 10px;
       font-weight: 600;
       line-height: 1.2;
@@ -39,7 +39,7 @@
       margin: 0;
 
       span {
-        font-family: $titleFontFamily, 50px, 1.2, 700;
+        font-family: $titleFontFamily, 55px, 1.2, 700;
         letter-spacing: 5px;
         position: relative;
         z-index: 0;
@@ -58,7 +58,7 @@
     }
 
     p {
-      font-size: 30px;
+      font-size: 35px;
     }
   }
 
@@ -66,16 +66,7 @@
     width: 344px;
     height: 429px;
     background-size: cover;
-    ::before {
-      content: '';
-      position: absolute;
-      height: 110%;
-      width: 105%;
-      border: 5px solid $primaryColor;
-      left: 15px;
-      top: -15px;
-      z-index: -1;
-    }
+
 
     @media (max-width: 1120px) {
       max-width: 100%;
@@ -90,6 +81,16 @@
 
   }
 
+}
+.photo:before {
+  content: '';
+  position: absolute;
+  height: 110%;
+  width: 100%;
+  border: 5px solid $primaryColor;
+  left: 15px;
+  top: -25px;
+  z-index: -1;
 }
 
 

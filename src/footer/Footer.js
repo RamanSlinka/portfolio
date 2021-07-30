@@ -13,8 +13,9 @@ function Footer() {
                 <Title text={'Raman Slinka'}/>
                 <div className={s.socialNetworks}>
                     <div className={s.SN}>
-                        <a href="https://t.me/FamaGrodziensky" target="_blank">telegram
+                        <a href="https://t.me/FamaGrodziensky" target="_blank">
                         <FontAwesomeIcon icon={faTelegram}/>
+                            telegram
                         </a>
                         </div>
                     <div className={s.SN}>

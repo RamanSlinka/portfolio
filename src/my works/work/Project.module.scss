@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     position: relative;
 
-    &::before {
+    &:hover::before {
       position: absolute;
       content: '';
       background-color: $bgSecondColor;
@@ -26,7 +26,7 @@
       bottom: 0;
       left: 0;
       right: 0;
-      opacity: 0.3;
+      opacity: 0.8;
     }
 
     .link {
@@ -54,8 +54,13 @@
 
     .description {
       @include text($textFontFamily, 14px, 1.8);
-
-      font-weight: 400;
+      a {
+        text-decoration: none;
+        font-weight: 400;
+        color: $textColor,
+      }:hover{
+               color: $primaryColor;
+             }
     }
   }
 }

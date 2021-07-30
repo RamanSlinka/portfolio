@@ -15,20 +15,35 @@ function Projects(props) {
     const todoList = {
                 backgroundImage: `url(${todoImage})`
     };
+    const linkSN = "https://RamanSlinka.github.io/SocialNetwork_ts" ;
+    const linkTL = "https://RamanSlinka.github.io/CopyTodo";
+    const viewCodeSN = "https://github.com/RamanSlinka/SocialNetwork_ts";
+    const viewCodeTL = "https://github.com/RamanSlinka/TodoList";
+
     return (
         <div id={'projects'} className={s.projectsBlock}>
             <div className={`${styleContainer.container} ${s.projectsContainer}`}>
                <Title text={'Projects'}/>
                 <div className={s.projects}>
                     <Project
+                        link={linkSN}
                         style={socialNetwork}
                         title={'Social Network'}
-                        description={'lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem'}
+                        description={'Web application that allows registered users to post information and communicate with each other.\n' +
+                        '\n' +
+                        'Technologies:\n' +
+                        'ReactJS, TS, Redux-thunk, Axios, Redux-form, CSS.'}
+                        viewCode={viewCodeSN}
                     />
                     <Project
+                        link={linkTL}
                         style={todoList}
                         title={'TodoList'}
-                        description={'lorem lorem   ta-ta-tu ta-ta-ta ta-ta-ta lorem lorem lorem'}
+                        description={'Web application designed to conveniently structure information about all current tasks in one place.\n' +
+                        '\n' +
+                        'Technologies:\n' +
+                        'ReactJS, TS, Redux-thunk, Axios, Formik, Material UI, Storybook.'}
+                        viewCode={viewCodeTL}
                     />
                 </div>
             </div>

@@ -21,7 +21,7 @@ function Skills() {
                         <Skill
                             icon={<SiJavascript/>}
                             title={'Java Script'}
-                            description={'lorem lorem lorem lorem'}
+                            description={'Conditions, Loops and iteration, Grammar and types, Functions, Using promises, Arrays, Expressions and operators, Objects, Regular expressions, etc....'}
                         />
                     </Fade>
 
@@ -29,14 +29,14 @@ function Skills() {
                         <Skill
                             icon={<SiReact/>}
                             title={'React'}
-                            description={'lorem lorem  ta-ta-tu ta-ta-ta ta-ta lorem'}
+                            description={'SPA, Props, Route, UI, BLL, State, VirtualDOM, FLUX, REST API, Pure function, Hooks, UseEffect, High Order Component (hoc), Life cycle methods, ComponentDidMount, etc...'}
                         /></Fade>
 
                     <Fade top>
                         <Skill
                             icon={<SiRedux/>}
                             title={'Redux'}
-                            description={'lorem lorem lorem lorem'}
+                            description={' Connect, Reducer, Action creator, Dispatch, Redux-ducks, MapStateToProps, Redux-form,  DAL,  mapDispatchToProps, etc...'}
                         />
                     </Fade>
 
@@ -44,23 +44,23 @@ function Skills() {
                         <Skill
                             icon={<SiRedux/>}
                             title={'Redux Thunk'}
-                            description={'lorem lorem lorem lorem'}
+                            description={''}
                         />
                     </Fade>
 
                     <Fade top>
                         <Skill
-                            icon={<SiTypescript/>}
-                            title={'Type Script'}
-                            description={'lorem lorem lorem lorem'}
+                            icon={<FaNetworkWired/>}
+                            title={'REST API'}
+                            description={'Context API, Axios.create,'}
                         />
                     </Fade>
 
                     <Fade bottom>
                         <Skill
-                            icon={<FaNetworkWired/>}
-                            title={'REST API'}
-                            description={'lorem lorem lorem lorem'}
+                            icon={<SiTypescript/>}
+                            title={'Type Script'}
+                            description={'Basic Types, Classes, Advanced Types, Declaration Merging, Decorators, Enums, Functions, Interfaces, JSX, Mixins,Modules, Namespaces, Symbols, etc...'}
                         />
                     </Fade>
 
@@ -69,7 +69,7 @@ function Skills() {
                         <Skill
                             icon={<FaGit/>}
                             title={'Git'}
-                            description={'lorem lorem lorem lorem'}
+                            description={'Distributed version control system that allows you to create repositories to manage collaborative development and, if necessary, revert to earlier versions of the application.'}
                         />
                     </Fade>
 
@@ -78,7 +78,8 @@ function Skills() {
                         <Skill
                             icon={<RiTeamLine/>}
                             title={'Teamwork'}
-                            description={'lorem lorem lorem lorem'}
+                            description={'Project development in a team of 4 people. Planning, discussion, decision making. Team meetings.\n' +
+                            'Review code. Working with GIT.'}
                         />
                     </Fade>
 
@@ -86,27 +87,25 @@ function Skills() {
                         <Skill
                             icon={<SiHtml5/>}
                             title={'HTML'}
-                            description={'lorem lorem lorem lorem'}
+                            description={'IDE (WebStorm, VSCode), Adaptive layout, Semantic HTML, Browsers, DevTools, Responsive layout, SVG, Media (Audio, Video, Maps), Fonts, Forms, etc...'}
                         />
                     </Fade>
                     <Fade top>
                         <Skill
                             icon={<SiCss3/>}
-
                             title={'CSS'}
-                            description={'lorem lorem lorem lorem'}
+                            description={'Selectors, Animation, FlexBox and Grid, Bootstrap, CanIUse, Table layout, WebPack, Media queries, Gulp, Mobile layout, etc...'}
                         />
                     </Fade>
 
-
-
-
-
-                    <Skill
+                    <Fade bottom>
+                        <Skill
                         icon={<DiSass/>}
                         title={'SCSS'}
-                        description={'lorem lorem lorem lorem'}
-                    />
+                        description={' Css preprocessors (Sass, Less)'}
+                    /></Fade>
+
+
                 </div>
             </div>
         </div>

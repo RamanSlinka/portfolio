@@ -30,9 +30,15 @@
         min-width: 150px;
         min-height: 50px;
 
+        :hover {
+         font-size: 23px;
+          color:$textColor;
+          transition: 0.9s;
+        }
+
         a {
           @include text($textFontFamily, 20px, 1.8);
-          color: $primaryColor ;
+          color: $primaryColor;
           text-decoration: none;
         }
 
