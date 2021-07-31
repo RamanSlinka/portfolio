@@ -1,13 +1,6 @@
 @import "./../common/styles/sass/variables";
 
-.particles {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.3;
-}
+
 
 .mainBlock {
   height: 100vh;
@@ -61,12 +54,11 @@
       font-size: 35px;
     }
   }
-
   .photo {
-    width: 344px;
-    height: 429px;
+    min-width: 370px;
+    height: 470px;
     background-size: cover;
-
+    justify-content: center;
 
     @media (max-width: 1120px) {
       max-width: 100%;
@@ -77,11 +69,12 @@
       max-width: 80%;
       justify-content: center;
       margin: 0 auto;
+
     }
 
   }
-
 }
+
 .photo:before {
   content: '';
   position: absolute;
@@ -93,6 +86,14 @@
   z-index: -1;
 }
 
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.3;
+}
 
 
 

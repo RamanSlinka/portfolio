@@ -1,7 +1,6 @@
 import React from 'react'
 import s from './Nav.module.scss'
-import Projects from "../my works/Projects";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 function Nav() {
     return (
