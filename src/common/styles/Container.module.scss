@@ -35,7 +35,7 @@
 
 .button {
   position: relative;
-  margin: 10px;
+ // margin: 10px;
   overflow: hidden;
   cursor: pointer;
   width: 70px;
@@ -47,6 +47,8 @@
   font-family:$titleFontFamily;
   text-align: center;
 
+
+  margin: 20px  auto;
 }
 
 .button::after {

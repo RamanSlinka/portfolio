@@ -27,19 +27,22 @@ function Contacts() {
                 <form onSubmit={sendEmail} className={s.form}>
                     <input type="text" className={s.input}
                            placeholder={'name'}
-                           name='to_name'
+                           name='from_name'
                     />
                     <input type="email" className={s.input}
                            placeholder={'E-mail'}
                            name='from_name'
                     />
-                    <input type="text" className={s.input}
-                           placeholder={'subject'} name='from_name'
-                    />
+                    {/*<input type="text" className={s.input}*/}
+                    {/*       placeholder={'subject'} name='from_name'*/}
+                    {/*/>*/}
                     <textarea placeholder={'Enter your question'}
                     name='message'
                     />
-                    <button type="submit" className={styleContainer.button}><span className={styleContainer.descriptionBtn}>Send message</span>
+                    <button type="submit"
+                            className={styleContainer.button}
+                        //className={`${styleContainer.button} ${s.btn}`}
+                                     ><span className={styleContainer.descriptionBtn}>Send message</span>
                     </button>
                 </form>
 
