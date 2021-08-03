@@ -9,5 +9,19 @@
   }
 }
 
+.phone{
+  display: flex;
+  flex-direction: row;
+  color: $textColor;
+  font-family: $titleFontFamily;
+  font-size: 35px;
+  margin-top: -5px;
+}
+.phoneMessage{
+  color: $textColor;
+  font-family: $textFontFamily;
+  font-size: 20px;
+  font-weight: 200;
 
+}
 

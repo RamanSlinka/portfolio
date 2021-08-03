@@ -3,7 +3,7 @@ import s from './Skills.module.scss'
 import styleContainer from '../common/styles/Container.module.scss'
 import Skill from "./skill/Skill";
 import Title from "../common/Components/Title/Title";
-import {SiTypescript, SiRedux, SiHtml5, SiCss3, SiJavascript, SiReact} from 'react-icons/si';
+import {SiTypescript, SiRedux, SiHtml5, SiCss3, SiJavascript, SiReact, SiJest} from 'react-icons/si';
 import {DiSass} from 'react-icons/di';
 import {FaGit, FaNetworkWired} from 'react-icons/fa';
 import Fade from 'react-reveal/Fade';
@@ -42,10 +42,11 @@ function Skills() {
 
                     <Fade bottom>
                         <Skill
-                            icon={<SiRedux/>}
-                            title={'Redux Thunk'}
-                            description={''}
+                            icon={<FaGit/>}
+                            title={'Git'}
+                            description={'Distributed version control system that allows you to create repositories to manage collaborative development and, if necessary, revert to earlier versions of the application.'}
                         />
+
                     </Fade>
 
                     <Fade top>
@@ -65,12 +66,12 @@ function Skills() {
                     </Fade>
 
                     <Fade bottom>
-
                         <Skill
-                            icon={<FaGit/>}
-                            title={'Git'}
-                            description={'Distributed version control system that allows you to create repositories to manage collaborative development and, if necessary, revert to earlier versions of the application.'}
+                            icon={<SiJest/>}
+                            title={'JEST'}
+                            description={'Using for testing reducers in SPA'}
                         />
+
                     </Fade>
 
 

@@ -11,6 +11,8 @@
   align-items: center;
   text-align: center;
   margin-bottom: 5px;
+
+
   .iconContainer {
     width: 80px;
     height: 80px;
@@ -18,17 +20,26 @@
     overflow: hidden;
     //background-color: rgba(64, 64, 64, 0.78);
     background-color: $bgColor;
-  }.icon{
-     color: $primaryColor;
-     font-size: 45px;
-     transform: rotate(-45deg);
-     padding-top: 13.5px;
-   }
+
+  }
+
+  .icon {
+    color: $primaryColor;
+    font-size: 45px;
+    transform: rotate(-45deg);
+    padding-top: 13.5px;
+    :hover {
+      transform:  rotate(360deg);
+    }
+  }
+
   .title {
     @include text($titleFontFamily, 20px, 1.2px);
     margin: 40px 0 10px;
     padding: 0;
+
   }
+
   span {
     margin: 0 0 30px;
     @include text($textFontFamily, 14px, 1.8);

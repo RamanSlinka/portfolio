@@ -26,7 +26,7 @@ function Projects(props) {
                <Title text={'Projects'}/>
                 <div className={s.projects}>
                     <Project
-                        link={linkSN}
+                        link={viewCodeSN}    // in time
                         style={socialNetwork}
                         title={'Social Network'}
                         description={'Web application that allows registered users to post information and communicate with each other.\n' +

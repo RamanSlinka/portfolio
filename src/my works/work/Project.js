@@ -1,11 +1,13 @@
 import React from 'react'
 import s from './Project.module.scss'
 import styleContainer from "../../common/styles/Container.module.scss";
+import Zoom from "react-reveal/Zoom";
 
 
 function Project(props) {
 
     return (
+        <Zoom clear>
         <div className={s.project}>
             <div className={s.imageContainer} style={props.style}>
                 {/*<button*/}
@@ -23,6 +25,7 @@ function Project(props) {
 
             </div>
         </div>
+            </Zoom>
     )
 }
 

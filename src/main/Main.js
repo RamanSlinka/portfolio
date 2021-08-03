@@ -99,7 +99,7 @@ function Main() {
                         <span className={s.greeting}>Hi There</span>
                         <h1>
                             I am &nbsp;
-                            <span>   Raman </span> <span> Slinka</span>
+                            <span className={s.nameFamily}>   Raman </span> <span className={s.nameFamily}> Slinka</span>
                         </h1>
                         <p>
                             <ReactTypingEffect
