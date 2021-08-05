@@ -11,7 +11,8 @@
     .form {
       display: flex;
       flex-direction: column;
-      width: 650px;
+      width: 90%;
+      height: 70%;
       @media (max-width: 800px) {
         width: 400px;
       }
