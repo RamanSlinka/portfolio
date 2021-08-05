@@ -1,5 +1,48 @@
 @import "./../common/styles/sass/variables";
 
+.mainContainer {
+
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 1180px) {
+    max-width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    transition: 0.9s;
+  }
+}
+
+.photo {
+  min-width: 390px;
+  height: 470px;
+  background-size: cover;
+  justify-content: center;
+  position: relative;
+  @media screen and (max-width: 683px) {
+    min-width:270px;
+    height: 350px;
+    margin: 0 auto;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    height: 110%;
+    width: 100%;
+    border: 5px solid $primaryColor;
+    left: 15px;
+    top: -25px;
+    z-index: -1;
+  }
+
+}
+
+
 
 
 .mainBlock {
@@ -37,14 +80,17 @@
         position: relative;
         z-index: 0;
         display: inline-block;
-        @media (max-width: 450px){
-          font-family: $titleFontFamily, 35px, 1.2, 700;
+        @media screen and (max-width: 890px) {
+          font-family: $titleFontFamily, 30px, 1.2, 700;
+        }@media (max-width: 450px) {
+          font-family: $titleFontFamily, 30px, 1.2, 700;
         }
+
         &:before {
           content: '';
           position: absolute;
           width: 114%;
-          height: 20px;
+          height: 15px;
           background-color: $primaryColor;
           bottom: 0;
           z-index: -1;
@@ -54,38 +100,12 @@
 
     p {
       font-size: 35px;
+      @media (max-width: 450px) {
+       font-size: 25px;
+      }
     }
   }
-  .photo {
-    min-width: 370px;
-    height: 440px;
-    background-size: cover;
-    justify-content: center;
 
-    @media (max-width: 1120px) {
-      max-width: 100%;
-      justify-content: center;
-      margin: 0 auto;
-    }
-    @media (max-width: 450px) {
-      max-width: 80%;
-      justify-content: center;
-      margin: 0 auto;
-
-    }
-
-  }
-}
-
-.photo:before {
-  content: '';
-  position: absolute;
-  height: 110%;
-  width: 100%;
-  border: 5px solid $primaryColor;
-  left: 15px;
-  top: -25px;
-  z-index: -1;
 }
 
 .particles {
@@ -96,6 +116,9 @@
   bottom: 0;
   opacity: 0.3;
 }
+
+
+
 
 
 

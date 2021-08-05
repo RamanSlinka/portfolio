@@ -27,7 +27,14 @@
   justify-content: space-between;
   white-space: nowrap;
   margin-right: 150px;
-
+  @media screen and (max-width: 890px) {
+    margin-right: 120px;
+    justify-content: center;
+  }
+  @media screen and (max-width: 455px) {
+    margin-right: 50px;
+    justify-content: center;
+  }
   a {
     padding: 20px;
     font-family: $titleFontFamily;
@@ -35,6 +42,13 @@
     font-weight: 400;
     color: $textColor;
     cursor: pointer;
+    @media screen and (max-width: 890px) {
+      font-size: 23px;
+      padding: 15px;
+    } @media screen and (max-width: 390px) {
+      font-size: 20px;
+      padding: 5px;
+    }
 
     &:hover {
       text-decoration: none;

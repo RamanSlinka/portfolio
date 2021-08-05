@@ -94,7 +94,7 @@ function Main() {
             />
 
             <Fade top>
-                <div className={styleContainer.container}>
+                <div className={s.mainContainer}>
                     <div className={s.text}>
                         <span className={s.greeting}>Hi There</span>
                         <h1>
@@ -109,11 +109,8 @@ function Main() {
                     </div>
 
                     <Tilt className="Tilt" options={{max: 25}} >
-                        <div className={s.photo}
-                             style={myPhoto} >
-
-                        </div>
-                    </Tilt>
+                        <div className={s.photo} style={myPhoto} />
+                   </Tilt>
                 </div>
             </Fade>
         </div>
