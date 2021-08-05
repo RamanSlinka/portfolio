@@ -20,13 +20,13 @@ function Contacts() {
                 from_name: formik.values.email,
                 message: formik.values.textarea
             }, 'user_mnUCEEr4By9wSIzyUVj9X')
-            .then((result) => {
-                //console.log(result.text);
+            .then(() => {
+
                 setSuccess(true);
                 setTimeout(function () {
                     setSuccess(false);
                 }, 6000);
-            }, (error) => {
+            }, () => {
                 // console.log(error.text);
                 setError(true)
                 setTimeout(function () {

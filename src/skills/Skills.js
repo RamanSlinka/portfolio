@@ -6,7 +6,6 @@ import Title from "../common/Components/Title/Title";
 import {SiTypescript, SiRedux, SiHtml5, SiCss3, SiJavascript, SiReact, SiJest} from 'react-icons/si';
 import {DiSass} from 'react-icons/di';
 import {FaGit, FaNetworkWired} from 'react-icons/fa';
-import Fade from 'react-reveal/Fade';
 import {RiTeamLine} from "react-icons/all";
 import Zoom from "react-reveal/Zoom";
 

@@ -15,8 +15,9 @@
       justify-content: space-between;
       flex-wrap: wrap;
       margin-top: 50px;
+      padding-left: 30px;
 
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 664px) {
         max-width: 100%;
         justify-content: center;
         margin: 50px 0  0 auto;

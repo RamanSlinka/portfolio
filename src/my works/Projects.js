@@ -1,21 +1,20 @@
 import React from 'react'
 import s from './Projects.module.scss'
 import styleContainer from "../common/styles/Container.module.scss";
-
 import Project from "./work/Project";
 import Title from "../common/Components/Title/Title";
 import todoImage from './../assets/image/TodoList.jpg'
 import socialImage from './../assets/image/social-network.jpg'
 
 
-function Projects(props) {
+function Projects() {
     const socialNetwork = {
                 backgroundImage: `url(${socialImage})`,
     };
     const todoList = {
                 backgroundImage: `url(${todoImage})`
     };
-    const linkSN = "https://RamanSlinka.github.io/SocialNetwork_ts" ;
+  //  const linkSN = "https://RamanSlinka.github.io/SocialNetwork_ts" ;
     const linkTL = "https://RamanSlinka.github.io/CopyTodo";
     const viewCodeSN = "https://github.com/RamanSlinka/SocialNetwork_ts";
     const viewCodeTL = "https://github.com/RamanSlinka/TodoList";
