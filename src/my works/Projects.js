@@ -17,7 +17,7 @@ function Projects() {
   //  const linkSN = "https://RamanSlinka.github.io/SocialNetwork_ts" ;
     const linkTL = "https://RamanSlinka.github.io/CopyTodo";
     const viewCodeSN = "https://github.com/RamanSlinka/SocialNetwork_ts";
-    const viewCodeTL = "https://github.com/RamanSlinka/TodoList";
+    const viewCodeTL = "https://github.com/RamanSlinka/CopyTodo";
 
     return (
         <div id={'projects'} className={s.projectsBlock}>

@@ -11,7 +11,7 @@ function Project(props) {
             <div className={s.project}>
                 <div className={s.imageContainer} style={props.style}>
                     <a href={props.link}
-                       rel="noreferrer"
+                       target="blank"
                        className={styleContainer.button} style={{height: '40px', width: '85px', paddingTop: '5px'}}>Click
                         and view</a>
                 </div>
@@ -19,7 +19,7 @@ function Project(props) {
                     <h3 className={s.projectTitle}>{props.title}</h3>
                     <span className={s.description}>{props.description}
                         <br/>>  <a href={props.viewCode}
-                                   rel="noreferrer"
+                                   target="blank"
                         >YOU CAN SEE CODE ON GITHUB</a>
                 </span>
 

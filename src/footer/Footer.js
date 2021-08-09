@@ -12,23 +12,23 @@ function Footer() {
                 <Title text={'Raman Slinka'}/>
                 <div className={s.socialNetworks}>
                     <div className={s.SN}>
-                        <a href="https://t.me/FamaGrodziensky" rel="noreferrer">
+                        <a href="https://t.me/FamaGrodziensky" target="blank">
                         <FontAwesomeIcon icon={faTelegram}/>
                             telegram
                         </a>
                         </div>
                     <div className={s.SN}>
-                        <a href="https://github.com/RamanSlinka" rel="noreferrer">
+                        <a href="https://github.com/RamanSlinka" target="blank">
                         <FontAwesomeIcon icon={faGithub}/>
                         gitHub
                         </a></div>
                     <div className={s.SN}>
-                        <a href="https://www.linkedin.com/in/raman-slinka" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/raman-slinka" target="blank">
                         <FontAwesomeIcon icon={faLinkedin}/>
                         linkedIn
                         </a></div>
                     <div className={s.SN}>
-                        <a href="https://www.instagram.com/raman_slinka/" rel="noreferrer">
+                        <a href="https://www.instagram.com/raman_slinka/" target="blank">
                         <FontAwesomeIcon icon={faInstagram}/>
                             instagram
                         </a></div>
