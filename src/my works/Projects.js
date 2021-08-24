@@ -5,6 +5,7 @@ import Project from "./work/Project";
 import Title from "../common/Components/Title/Title";
 import todoImage from './../assets/image/TodoList.jpg'
 import socialImage from './../assets/image/social-network.jpg'
+import postImage from './../assets/image/Social-media-posting.jpg'
 
 
 function Projects() {
@@ -14,10 +15,15 @@ function Projects() {
     const todoList = {
                 backgroundImage: `url(${todoImage})`
     };
+    const mediaPost = {
+                backgroundImage: `url(${postImage})`
+    };
   //  const linkSN = "https://RamanSlinka.github.io/SocialNetwork_ts" ;
     const linkTL = "https://RamanSlinka.github.io/CopyTodo";
     const viewCodeSN = "https://github.com/RamanSlinka/SocialNetwork_ts";
     const viewCodeTL = "https://github.com/RamanSlinka/CopyTodo";
+    const linkSMP = "https://RamanSlinka.github.io/posts-app";
+    const viewCodeSMP = "https://github.com/RamanSlinka/posts-app";
 
     return (
         <div id={'projects'} className={s.projectsBlock}>
@@ -43,6 +49,16 @@ function Projects() {
                         'Technologies:\n' +
                         'ReactJS, TS, Redux-thunk, Axios, Formik, Material UI, Storybook.'}
                         viewCode={viewCodeTL}
+                    />
+                    <Project
+                        link={linkSMP}
+                        style={mediaPost}
+                        title={'Social Media Posting'}
+                        description={'A web application designed to publish information in the form of posts, search and filter (among existing posts), as well as display information for each post separately.\n' +
+                        '\n' +
+                        'Technologies:\n' +
+                        'ReactJS,use Hooks (+ custom hooks),Modal window,  Formik, Pagination, Sorting, Drop-down list, Search, Filtration .'}
+                        viewCode={viewCodeSMP}
                     />
                 </div>
             </div>
