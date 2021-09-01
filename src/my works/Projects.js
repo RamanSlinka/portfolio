@@ -7,6 +7,7 @@ import todoImage from './../assets/image/TodoList.jpg'
 import socialImage from './../assets/image/social-network.jpg'
 import postImage from './../assets/image/Social-media-posting.jpg'
 import chuckImage from './../assets/image/chucknorris_logo.png'
+import note from './../assets/image/note.jpg'
 
 
 function Projects() {
@@ -22,6 +23,9 @@ function Projects() {
     const chuckNorris = {
         backgroundImage: `url(${chuckImage})`
     };
+    const noteApp = {
+        backgroundImage: `url(${note})`
+    };
 
     //  const linkSN = "https://RamanSlinka.github.io/SocialNetwork_ts" ;
     const linkTL = "https://RamanSlinka.github.io/CopyTodo";
@@ -31,30 +35,22 @@ function Projects() {
     const viewCodeSMP = "https://github.com/RamanSlinka/posts-app";
     const linkChuckNorris = "https://RamanSlinka.github.io/my_test_ChuckNorris";
     const viewCodeChuckNorris = "https://github.com/RamanSlinka/my_test_ChuckNorris";
+    const linkNote = "https://react-miniapp-notes.firebaseapp.com/";
+    const viewNote = "https://github.com/RamanSlinka/mini-app-notes";
 
     return (
         <div id={'projects'} className={s.projectsBlock}>
             <div className={`${styleContainer.container} ${s.projectsContainer}`}>
                 <Title text={'Projects'}/>
                 <div className={s.projects}>
-                    <Project
-                        link={viewCodeSN}    // in time
-                        style={socialNetwork}
-                        title={'Social Network'}
-                        description={'Web application that allows registered users to post information and communicate with each other.\n' +
-                        '\n' +
-                        'Technologies:\n' +
-                        'ReactJS, TS, Redux-thunk, Axios, Redux-form, CSS.'}
-                        viewCode={viewCodeSN}
-                    />
+
                     <Project
                         link={linkTL}
                         style={todoList}
                         title={'TodoList'}
-                        description={'Web application designed to conveniently structure information about all current tasks in one place.\n' +
-                        '\n' +
-                        'Technologies:\n' +
-                        'ReactJS, TS, Redux-thunk, Axios, Formik, Material UI, Storybook.'}
+                        description={'Web application designed to conveniently structure information about all current tasks in one place. Sorry, now the application is not fully deployed to the gh-pages due to server problems :( \n' +
+                        '\n' + 'Technologies:\n' +
+                        'ReactJS, TS, Redux-thunk, Axios, Formik, Material UI, Storybook.' }
                         viewCode={viewCodeTL}
                     />
                     <Project
@@ -76,6 +72,26 @@ function Projects() {
                         'Technologies:\n' +
                         'ReactJS,  TS, Redux, Redux-thunk, Axios .'}
                         viewCode={viewCodeChuckNorris}
+                    />
+                    <Project
+                        link={viewCodeSN}    // in time
+                        style={socialNetwork}
+                        title={'Social Network'}
+                        description={'Web application that allows registered users to post information and communicate with each other. Sorry, now the application is not fully deployed to the gh-pages due to server problems  \n' +
+                        '\n' +
+                        'Technologies:\n' +
+                        'ReactJS, TS, Redux-thunk, Axios, Redux-form, CSS.'}
+                        viewCode={viewCodeSN}
+                    />
+                    <Project
+                        link={linkNote}
+                        style={noteApp}
+                        title={'Notes App'}
+                        description={'A mini web  application designed for recording and/or deleting tasks. Recorded tasks are stored on a remote server. \n' +
+                        '\n' +
+                        'Technologies:\n' +
+                        'ReactJS, hooks, Routing, Axios, Firebase, Hosting, Bootstrap.'}
+                        viewCode={viewNote}
                     />
                 </div>
             </div>
