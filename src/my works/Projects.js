@@ -8,6 +8,7 @@ import socialImage from './../assets/image/social-network.jpg'
 import postImage from './../assets/image/Social-media-posting.jpg'
 import chuckImage from './../assets/image/chucknorris_logo.png'
 import note from './../assets/image/note.jpg'
+import website from './../assets/image/website_1.jpg'
 
 
 function Projects() {
@@ -26,6 +27,10 @@ function Projects() {
     const noteApp = {
         backgroundImage: `url(${note})`
     };
+    const website1 = {
+        backgroundImage: `url(${website})`,
+    };
+   // const website = {backgroundImage: `url(${website})`};
 
     //  const linkSN = "https://RamanSlinka.github.io/SocialNetwork_ts" ;
     const linkTL = "https://RamanSlinka.github.io/CopyTodo";
@@ -37,6 +42,8 @@ function Projects() {
     const viewCodeChuckNorris = "https://github.com/RamanSlinka/my_test_ChuckNorris";
     const linkNote = "https://react-miniapp-notes.firebaseapp.com/";
     const viewNote = "https://github.com/RamanSlinka/mini-app-notes";
+    const linkWebSite =  "https://RamanSlinka.github.io/radaway_presentation_app";
+    const viewWebSite = "https://github.com/RamanSlinka/radaway_presentation_app";
 
     return (
         <div id={'projects'} className={s.projectsBlock}>
@@ -92,6 +99,16 @@ function Projects() {
                         'Technologies:\n' +
                         'ReactJS, hooks, Routing, Axios, Firebase, Hosting, Bootstrap.'}
                         viewCode={viewNote}
+                    />
+                    <Project
+                        link={linkWebSite}
+                        style={website1}
+                        title={'Website(mini presentation version)'}
+                        description={'A mini website website created by layout  with ReactJS. \n' +
+                        '\n' +
+                        'Technologies:\n' +
+                        'HTML, SCSS, ReactJS,  Routing,  Bootstrap, Formik, React icons'}
+                        viewCode={viewWebSite}
                     />
                 </div>
             </div>
