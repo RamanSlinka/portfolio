@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a832a54f.chunk.css",
-    "main.js": "/portfolio/static/js/main.57099159.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.57099159.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.ada9e69f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ada9e69f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.678e4a28.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.678e4a28.js.map",
     "static/js/2.b80af906.chunk.js": "/portfolio/static/js/2.b80af906.chunk.js",
@@ -17,12 +17,13 @@
     "static/media/chucknorris_logo.8cef148e.png": "/portfolio/static/media/chucknorris_logo.8cef148e.png",
     "static/media/myPhoto.d9a45eb1.jpg": "/portfolio/static/media/myPhoto.d9a45eb1.jpg",
     "static/media/note.414bd86c.jpg": "/portfolio/static/media/note.414bd86c.jpg",
-    "static/media/social-network.89b54fdd.jpg": "/portfolio/static/media/social-network.89b54fdd.jpg"
+    "static/media/social-network.89b54fdd.jpg": "/portfolio/static/media/social-network.89b54fdd.jpg",
+    "static/media/website_1.66ed688b.jpg": "/portfolio/static/media/website_1.66ed688b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.678e4a28.js",
     "static/js/2.b80af906.chunk.js",
     "static/css/main.a832a54f.chunk.css",
-    "static/js/main.57099159.chunk.js"
+    "static/js/main.ada9e69f.chunk.js"
   ]
 }
