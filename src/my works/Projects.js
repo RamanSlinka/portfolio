@@ -32,7 +32,7 @@ function Projects() {
     };
    // const website = {backgroundImage: `url(${website})`};
 
-    //  const linkSN = "https://RamanSlinka.github.io/SocialNetwork_ts" ;
+    const linkSN = "https://RamanSlinka.github.io/SocialNetwork_ts" ;
     const linkTL = "https://RamanSlinka.github.io/CopyTodo";
     const viewCodeSN = "https://github.com/RamanSlinka/SocialNetwork_ts";
     const viewCodeTL = "https://github.com/RamanSlinka/CopyTodo";
@@ -55,7 +55,7 @@ function Projects() {
                         link={linkTL}
                         style={todoList}
                         title={'TodoList'}
-                        description={'Web application designed to conveniently structure information about all current tasks in one place. Sorry, now the application is not fully deployed to the gh-pages due to server problems :( \n' +
+                        description={'Web application designed to conveniently structure information about all current tasks in one place.  \n' +
                         '\n' + 'Technologies:\n' +
                         'ReactJS, TS, Redux-thunk, Axios, Formik, Material UI, Storybook.' }
                         viewCode={viewCodeTL}
@@ -81,10 +81,10 @@ function Projects() {
                         viewCode={viewCodeChuckNorris}
                     />
                     <Project
-                        link={viewCodeSN}    // in time
+                        link={linkSN}
                         style={socialNetwork}
                         title={'Social Network'}
-                        description={'Web application that allows registered users to post information and communicate with each other. Sorry, now the application is not fully deployed to the gh-pages due to server problems  \n' +
+                        description={'Web application that allows registered users to post information and communicate with each other.   \n' +
                         '\n' +
                         'Technologies:\n' +
                         'ReactJS, TS, Redux-thunk, Axios, Redux-form, CSS.'}
@@ -104,7 +104,7 @@ function Projects() {
                         link={linkWebSite}
                         style={website1}
                         title={'Website(mini presentation version)'}
-                        description={'A mini website website created by layout  with ReactJS. \n' +
+                        description={'A mini  website created by layout  with ReactJS. \n' +
                         '\n' +
                         'Technologies:\n' +
                         'HTML, SCSS, ReactJS,  Routing,  Bootstrap, Formik, React icons'}
