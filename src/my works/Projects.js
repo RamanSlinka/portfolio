@@ -94,7 +94,7 @@ function Projects() {
                         link={linkNote}
                         style={noteApp}
                         title={'Notes App'}
-                        description={'A mini web  application designed for recording and/or deleting tasks. Recorded tasks are stored on a remote server. \n' +
+                        description={'A mini web  application designed for recording and/or deleting tasks. Recorded tasks are stored on a remote server.(Server blocked) \n' +
                         '\n' +
                         'Technologies:\n' +
                         'ReactJS, hooks, Routing, Axios, Firebase, Hosting, Bootstrap.'}
