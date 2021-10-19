@@ -33,6 +33,14 @@ function Nav() {
             >Projects</Link>
             <Link
                 activeClass={s.active}
+                to="CV"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+            >CV</Link>
+            <Link
+                activeClass={s.active}
                 to="contact"
                 spy={true}
                 smooth={true}

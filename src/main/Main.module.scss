@@ -10,7 +10,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
 
-  @media screen and (max-width: 1180px) {
+  @media screen and (max-width: 1191px) {
     max-width: 100%;
     justify-content: center;
     margin: 0 auto;
@@ -55,8 +55,9 @@
     height: 156px;
     color: $textColor;
     font-family: $titleFontFamily;
-    @media (max-width: 1120px) {
+    @media (max-width: 1191px) {
       margin-top: 60px;
+
     }
     @media (max-width: 450px) {
       margin-top: 20px;
@@ -73,6 +74,10 @@
       line-height: 1.2;
       letter-spacing: 5px;
       margin: 0;
+      @media (max-width: 1191px) {
+        font-size: 40px;
+
+      }
 
       span {
         font-family: $titleFontFamily, 55px, 1.2, 700;

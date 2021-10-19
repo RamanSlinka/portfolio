@@ -61,6 +61,26 @@ function Projects() {
                         viewCode={viewCodeTL}
                     />
                     <Project
+                        link={linkSN}
+                        style={socialNetwork}
+                        title={'Social Network'}
+                        description={'Web application that allows registered users to post information and communicate with each other.   \n' +
+                        '\n' +
+                        'Technologies:\n' +
+                        'ReactJS, TS, Redux-thunk, Axios, Redux-form, CSS.'}
+                        viewCode={viewCodeSN}
+                    />
+                    <Project
+                        link={linkWebSite}
+                        style={website1}
+                        title={'Website presentation ver.'}
+                        description={'A mini  website created by origin layout (Pixel Perfect)  with ReactJS. \n' +
+                        '\n' +
+                        'Technologies:\n' +
+                        'HTML, SCSS, ReactJS,  Routing,  Bootstrap, Formik, React icons'}
+                        viewCode={viewWebSite}
+                    />
+                    <Project
                         link={linkSMP}
                         style={mediaPost}
                         title={'Social Media Posting'}
@@ -80,36 +100,18 @@ function Projects() {
                         'ReactJS,  TS, Redux, Redux-thunk, Axios .'}
                         viewCode={viewCodeChuckNorris}
                     />
-                    <Project
-                        link={linkSN}
-                        style={socialNetwork}
-                        title={'Social Network'}
-                        description={'Web application that allows registered users to post information and communicate with each other.   \n' +
-                        '\n' +
-                        'Technologies:\n' +
-                        'ReactJS, TS, Redux-thunk, Axios, Redux-form, CSS.'}
-                        viewCode={viewCodeSN}
-                    />
-                    <Project
-                        link={linkNote}
-                        style={noteApp}
-                        title={'Notes App'}
-                        description={'A mini web  application designed for recording and/or deleting tasks. Recorded tasks are stored on a remote server.(Server blocked) \n' +
-                        '\n' +
-                        'Technologies:\n' +
-                        'ReactJS, hooks, Routing, Axios, Firebase, Hosting, Bootstrap.'}
-                        viewCode={viewNote}
-                    />
-                    <Project
-                        link={linkWebSite}
-                        style={website1}
-                        title={'Website(mini presentation version)'}
-                        description={'A mini  website created by layout  with ReactJS. \n' +
-                        '\n' +
-                        'Technologies:\n' +
-                        'HTML, SCSS, ReactJS,  Routing,  Bootstrap, Formik, React icons'}
-                        viewCode={viewWebSite}
-                    />
+
+                    {/*<Project*/}
+                    {/*    link={linkNote}*/}
+                    {/*    style={noteApp}*/}
+                    {/*    title={'Notes App'}*/}
+                    {/*    description={'A mini web  application designed for recording and/or deleting tasks. Recorded tasks are stored on a remote server.(Server blocked) \n' +*/}
+                    {/*    '\n' +*/}
+                    {/*    'Technologies:\n' +*/}
+                    {/*    'ReactJS, hooks, Routing, Axios, Firebase, Hosting, Bootstrap.'}*/}
+                    {/*    viewCode={viewNote}*/}
+                    {/*/>*/}
+
                 </div>
             </div>
         </div>

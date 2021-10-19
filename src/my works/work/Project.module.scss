@@ -50,10 +50,10 @@
     padding: 25px 20px;
 
     .projectTitle {
-      @include text($titleFontFamily, 16px, 1.2px);
+      @include text($titleFontFamily, 17px, 1.2px);
 
       letter-spacing: 1px;
-      margin: 0 0 5px;
+      margin: 0 0 15px;
     }
 
     .description {
