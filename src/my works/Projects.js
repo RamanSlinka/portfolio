@@ -5,6 +5,7 @@ import Project from "./work/Project";
 import Title from "../common/Components/Title/Title";
 import todoImage from './../assets/image/TodoList.jpg'
 import socialImage from './../assets/image/social-network.jpg'
+import pizzaShopImage from './../assets/image/pizza-labels.jpg'
 import postImage from './../assets/image/Social-media-posting.jpg'
 import chuckImage from './../assets/image/chucknorris_logo.png'
 import note from './../assets/image/note.jpg'
@@ -12,6 +13,9 @@ import website from './../assets/image/website_1.jpg'
 
 
 function Projects() {
+    const pizzaShop = {
+        backgroundImage: `url(${pizzaShopImage})`,
+    };
     const socialNetwork = {
         backgroundImage: `url(${socialImage})`,
     };
@@ -44,6 +48,8 @@ function Projects() {
     const viewNote = "https://github.com/RamanSlinka/mini-app-notes";
     const linkWebSite =  "https://RamanSlinka.github.io/radaway_presentation_app";
     const viewWebSite = "https://github.com/RamanSlinka/radaway_presentation_app";
+    const linkStore =  "https://RamanSlinka.github.io/pizza-shop-v.2";
+    const viewStore = "https://github.com/RamanSlinka/pizza-shop-v.2";
 
     return (
         <div id={'projects'} className={s.projectsBlock}>
@@ -51,6 +57,15 @@ function Projects() {
                 <Title text={'Projects'}/>
                 <div className={s.projects}>
 
+                    <Project
+                        link={linkStore}
+                        style={pizzaShop}
+                        title={'Pizza shop (in progress...)'}
+                        description={'Web application - online Pizza shop (in progress...).  \n' +
+                        '\n' + 'Technologies:\n' +
+                        'ReactJS, TS, Redux-thunk, Axios, (in progress...)' }
+                        viewCode={viewStore}
+                    />
                     <Project
                         link={linkTL}
                         style={todoList}
