@@ -3,7 +3,7 @@ import s from './Skills.module.scss'
 import styleContainer from '../common/styles/Container.module.scss'
 import Skill from "./skill/Skill";
 import Title from "../common/Components/Title/Title";
-import {SiTypescript, SiRedux, SiHtml5, SiCss3, SiJavascript, SiReact, SiJest} from 'react-icons/si';
+import {SiTypescript, SiNextdotjs, SiRedux, SiHtml5, SiCss3, SiJavascript, SiReact, SiJest} from 'react-icons/si';
 import {DiSass} from 'react-icons/di';
 import {FaGit, FaNetworkWired} from 'react-icons/fa';
 import {RiTeamLine} from "react-icons/all";
@@ -20,7 +20,7 @@ function Skills() {
                         <Skill
                             icon={<SiJavascript/>}
                             title={'Java Script'}
-                            description={'Conditions, Loops and iteration, Grammar and types, Functions, Using promises, Arrays, Expressions and operators, Objects, Regular expressions, etc....'}
+                            description={'ES6 - ES8, Conditions, Loops and iteration, Grammar and types, Functions, Using promises, Arrays, Expressions and operators, Objects, Regular expressions, etc....'}
                         />
                     </Zoom>
 
@@ -61,6 +61,13 @@ function Skills() {
                             icon={<SiTypescript/>}
                             title={'Type Script'}
                             description={'Basic Types, Classes, Advanced Types, Declaration Merging, Decorators, Enums, Functions, Interfaces, JSX, Mixins,Modules, Namespaces, Symbols, etc...'}
+                        />
+                    </Zoom>
+                    <Zoom clear>
+                        <Skill
+                            icon={<SiNextdotjs/>}
+                            title={'Next JS'}
+                            description={'Pages & Routes,Dynamic Routes, Layout & Components, Pages Navigation & Redirecting, Styles, Images & Metadata, Fetching Data, SSR & SSG, API Creation, etc...'}
                         />
                     </Zoom>
 
