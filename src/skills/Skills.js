@@ -6,7 +6,7 @@ import Title from "../common/Components/Title/Title";
 import {SiTypescript, SiNextdotjs, SiRedux, SiHtml5, SiCss3, SiJavascript, SiReact, SiJest} from 'react-icons/si';
 import {DiSass} from 'react-icons/di';
 import {FaGit, FaNetworkWired} from 'react-icons/fa';
-import {RiTeamLine} from "react-icons/all";
+import {GrNode, RiTeamLine} from "react-icons/all";
 import Zoom from "react-reveal/Zoom";
 
 function Skills() {
@@ -20,7 +20,7 @@ function Skills() {
                         <Skill
                             icon={<SiJavascript/>}
                             title={'Java Script'}
-                            description={'ES6 - ES8, Conditions, Loops and iteration, Grammar and types, Functions, Using promises, Arrays, Expressions and operators, Objects, Regular expressions, etc....'}
+                            description={'ES6 , Conditions, Loops and iteration, Grammar and types, Functions, Using promises, Arrays, Expressions and operators, Objects, Regular expressions, etc....'}
                         />
                     </Zoom>
 
@@ -39,14 +39,7 @@ function Skills() {
                         />
                     </Zoom>
 
-                    <Zoom clear>
-                        <Skill
-                            icon={<FaGit/>}
-                            title={'Git'}
-                            description={'Distributed version control system that allows you to create repositories to manage collaborative development and, if necessary, revert to earlier versions of the application.'}
-                        />
 
-                    </Zoom>
 
                     <Zoom clear>
                         <Skill
@@ -70,7 +63,20 @@ function Skills() {
                             description={'Pages & Routes,Dynamic Routes, Layout & Components, Pages Navigation & Redirecting, Styles, Images & Metadata, Fetching Data, SSR & SSG, API Creation, etc...'}
                         />
                     </Zoom>
-
+                    <Zoom clear>
+                        <Skill
+                            icon={<GrNode/>}
+                            title={'Node JS (basic)'}
+                            description={'Create API, CRUD operations(GET, PUT, UPDATE, DELETE), MongoDB,NPM & Packages, Base Routing, Buffer & Streams, Event Module,Global Objects, File System etc...'}
+                        />
+                    </Zoom>
+                    <Zoom clear>
+                        <Skill
+                            icon={<FaGit/>}
+                            title={'Git'}
+                            description={'Distributed version control system that allows you to create repositories to manage collaborative development and, if necessary, revert to earlier versions of the application.'}
+                        />
+                    </Zoom>
                     <Zoom clear>
                         <Skill
                             icon={<SiJest/>}
