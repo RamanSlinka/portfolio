@@ -8,6 +8,8 @@ import {DiSass} from 'react-icons/di';
 import {FaGit, FaNetworkWired} from 'react-icons/fa';
 import {GrNode, RiTeamLine} from "react-icons/all";
 import Zoom from "react-reveal/Zoom";
+//import Zoom from "react-reveal/Zoom";
+//import Zoom from "react-reveal/Zoom";
 
 function Skills() {
     return (
