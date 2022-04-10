@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6d349f6f.chunk.css",
-    "main.js": "/portfolio/static/js/main.aef84df6.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.aef84df6.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.67d566d4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.67d566d4.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.46e0ca10.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.46e0ca10.js.map",
     "static/js/2.15fa747c.chunk.js": "/portfolio/static/js/2.15fa747c.chunk.js",
@@ -12,8 +12,8 @@
     "index.html": "/portfolio/index.html",
     "static/css/main.6d349f6f.chunk.css.map": "/portfolio/static/css/main.6d349f6f.chunk.css.map",
     "static/js/2.15fa747c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.15fa747c.chunk.js.LICENSE.txt",
-    "static/media/CV_RamanSlinka.5c61bcab.pdf": "/portfolio/static/media/CV_RamanSlinka.5c61bcab.pdf",
-    "static/media/Gif_CV_R.Slinka.72a7e9ae.gif": "/portfolio/static/media/Gif_CV_R.Slinka.72a7e9ae.gif",
+    "static/media/Raman Slinka .0ea3a7c0.gif": "/portfolio/static/media/Raman Slinka .0ea3a7c0.gif",
+    "static/media/Raman_Slinka_cv.23ed67cc.pdf": "/portfolio/static/media/Raman_Slinka_cv.23ed67cc.pdf",
     "static/media/Social-media-posting.9494df7c.jpg": "/portfolio/static/media/Social-media-posting.9494df7c.jpg",
     "static/media/TodoList.16289325.jpg": "/portfolio/static/media/TodoList.16289325.jpg",
     "static/media/chucknorris_logo.8cef148e.png": "/portfolio/static/media/chucknorris_logo.8cef148e.png",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.46e0ca10.js",
     "static/js/2.15fa747c.chunk.js",
     "static/css/main.6d349f6f.chunk.css",
-    "static/js/main.aef84df6.chunk.js"
+    "static/js/main.67d566d4.chunk.js"
   ]
 }
