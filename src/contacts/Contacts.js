@@ -14,7 +14,7 @@ function Contacts() {
 
     const formRef = useRef(null)
     let sendEmail = () => {
-        emailjs.send('service_4e1ddah', 'template_9x2ipjy',
+        emailjs.send('service_eppp92p', 'template_9x2ipjy',
             {
                 to_name: formik.values.userName,
                 from_name: formik.values.email,
