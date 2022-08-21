@@ -60,10 +60,11 @@ function Projects() {
                     <Project
                         link={linkStore}
                         style={pizzaShop}
-                        title={'Pizza shop (in progress...)'}
-                        description={'Web application - online Pizza shop (in progress...).  \n' +
-                            '\n' + 'Technologies:\n' +
-                            'ReactJS, TS, Redux-thunk, Axios, (in progress...)'}
+                        title={'eCommerce - Pizza shop '}
+                        description={'Web Application - eCommerce Pizza Online Store.\n' +
+                            'First, create an account and register (this is required in order to use the shopping cart).\n' +
+                            'Pizzas can be sorted and filtered by parameters. Pizzas added to the basket can be deleted individually or the entire basket can be emptied. There is a form for payment by card. There is a form for feedback or wishes.\n' +
+                            'There is also an admin panel - used to add new products (individual access).' +'Technologies: MERN such as: MongoDB, Express, React, NodeJs . N.B.! For more information about the technologies used, see the link below'}
                         viewCode={viewStore}
                     />
 
@@ -72,7 +73,7 @@ function Projects() {
                         style={cloudDisk}
                         title={'Cloud Disk'}
                         description={'This is a web application where you can upload and store your files. First create an account and register. Files can be sorted,' +
-                            ' filtered and deleted. Saved files can later be downloaded to any of your own devices.) \n' +
+                            ' filtered and deleted. Saved files can later be downloaded to any of your own devices. \n' +
                             '\n' +
                             'Technologies:\n' +
                             ' MERN  such as: MongoDB, Express, React, NodeJs .' +
