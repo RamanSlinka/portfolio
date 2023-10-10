@@ -9,6 +9,7 @@ import pizzaShopImage from './../assets/image/pizza-labels.jpg'
 import postImage from './../assets/image/post1.jpg'
 import cloudDiskImage from './../assets/image/cloud.jpg'
 import websiteImage from './../assets/image/website_1.jpg'
+import videoImage from './../assets/image/video_distribution.jpg'
 
 
 function Projects() {
@@ -33,6 +34,10 @@ function Projects() {
         backgroundImage: `url(${websiteImage})`,
     };
 
+    const videoImg = {
+        backgroundImage: `url(${videoImage})`
+    }
+
     const linkSN = "https://RamanSlinka.github.io/SocialNetwork_ts";
     const linkTL = "https://RamanSlinka.github.io/CopyTodo";
 
@@ -51,11 +56,29 @@ function Projects() {
     const linkStore = "https://RamanSlinka.github.io/pizza-shop-v.2";
     const viewStore = "https://github.com/RamanSlinka/pizza-shop-v.2";
 
+    const linkClips = "https://ramanslinka.github.io/clips/";
+    const viewClips = "https://github.com/RamanSlinka/clips";
+
     return (
         <div id={'projects'} className={s.projectsBlock}>
             <div className={`${styleContainer.container} ${s.projectsContainer}`}>
                 <Title text={'Projects'}/>
                 <div className={s.projects}>
+
+                    <Project
+                        link={linkClips}
+                        style={videoImg}
+                        title={'Clips'}
+                        description={'Web Application - The app to watch, clip, and share your awesome gaming moments with your friends and the world!' +
+                            '  Technologies: This APP was created in Angular and TypeScript.' +
+                            'There are: the latest features in Angular: Routing, Directives, Pipes, Services, Ahead of time Compilation + much more.' +
+                            ' Used RxJS and Streams. Used Angular Design Patterns.' +
+                            ' Also used set up authentication and user accounts. ' +
+                            'Used Firebase to build full stack applications.' +
+                            ' Worked with Memory Leaks in project to improve performance. ' +
+                            'Used TailwindCSS in this Angular application.'}
+                        viewCode={viewClips}
+                    />
 
                     <Project
                         link={linkStore}
