@@ -6,8 +6,9 @@ import Title from "../common/Components/Title/Title";
 import {SiTypescript, SiNextdotjs, SiRedux, SiHtml5, SiCss3, SiJavascript, SiReact, SiJest} from 'react-icons/si';
 import {DiSass} from 'react-icons/di';
 import {FaGit, FaNetworkWired} from 'react-icons/fa';
-import {GrNode, RiTeamLine} from "react-icons/all";
 import Zoom from "react-reveal/Zoom";
+import {GrNode} from "react-icons/gr";
+import {RiTeamLine} from "react-icons/ri";
 //import Zoom from "react-reveal/Zoom";
 //import Zoom from "react-reveal/Zoom";
 
