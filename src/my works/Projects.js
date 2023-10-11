@@ -105,7 +105,7 @@ function Projects() {
                         description={'Web Application - eCommerce Pizza Online Store.\n' +
                             'First, create an account and register (this is required in order to use the shopping cart).\n' +
                             'Pizzas can be sorted and filtered by parameters. Pizzas added to the basket can be deleted individually or the entire basket can be emptied. There is a form for payment by card. There is a form for feedback or wishes.\n' +
-                            'There is also an admin panel - used to add new products (individual access).' + 'Technologies: MERN such as: MongoDB, Express, React, NodeJs . N.B.! For more information about the technologies used, see the link below'}
+                            'There is also an admin panel - used to add new products (individual access). Technologies: MERN such as: MongoDB, Express, React, NodeJs . N.B.! For more information about the technologies used, see the link below'}
                         viewCode={viewStore}
                     />
 
@@ -148,8 +148,7 @@ function Projects() {
                         link={linkTL}
                         style={todoList}
                         title={'TodoList'}
-                        description={'Web application designed to conveniently structure information about all current tasks in one place.  \n' +
-                            '\n' + 'Technologies:\n' +
+                        description={'Web application designed to conveniently structure information about all current tasks in one place.  Technologies:\n' +
                             'ReactJS, TS, Redux-thunk, Axios, Formik, Material UI, Storybook.'}
                         viewCode={viewCodeTL}
                     />
