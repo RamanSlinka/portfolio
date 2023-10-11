@@ -10,6 +10,7 @@ import postImage from './../assets/image/post1.jpg'
 import cloudDiskImage from './../assets/image/cloud.jpg'
 import websiteImage from './../assets/image/website_1.jpg'
 import videoImage from './../assets/image/video_distribution.jpg'
+import burgerImage from './../assets/image/burger.jpg'
 
 
 function Projects() {
@@ -36,6 +37,10 @@ function Projects() {
 
     const videoImg = {
         backgroundImage: `url(${videoImage})`
+    };
+
+    const burgerImg = {
+        backgroundImage: `url(${burgerImage})`
     }
 
     const linkSN = "https://RamanSlinka.github.io/SocialNetwork_ts";
@@ -59,6 +64,9 @@ function Projects() {
     const linkClips = "https://ramanslinka.github.io/clips/";
     const viewClips = "https://github.com/RamanSlinka/clips";
 
+    const linkBurger = "https://ramanslinka.github.io/burgers-landing/";
+    const viewBurger = "https://github.com/RamanSlinka/burgers-landing";
+
     return (
         <div id={'projects'} className={s.projectsBlock}>
             <div className={`${styleContainer.container} ${s.projectsContainer}`}>
@@ -81,15 +89,26 @@ function Projects() {
                     />
 
                     <Project
+                        link={linkBurger}
+                        style={burgerImg}
+                        title={'eCommerce - Burgers '}
+                        description={'Web Application - eCommerce Burgers Online Store.' +
+                            '   It\'s a mini project - landingPage created with Angular.'}
+                        viewCode={viewBurger}
+                    />
+
+
+                    <Project
                         link={linkStore}
                         style={pizzaShop}
                         title={'eCommerce - Pizza shop '}
                         description={'Web Application - eCommerce Pizza Online Store.\n' +
                             'First, create an account and register (this is required in order to use the shopping cart).\n' +
                             'Pizzas can be sorted and filtered by parameters. Pizzas added to the basket can be deleted individually or the entire basket can be emptied. There is a form for payment by card. There is a form for feedback or wishes.\n' +
-                            'There is also an admin panel - used to add new products (individual access).' +'Technologies: MERN such as: MongoDB, Express, React, NodeJs . N.B.! For more information about the technologies used, see the link below'}
+                            'There is also an admin panel - used to add new products (individual access).' + 'Technologies: MERN such as: MongoDB, Express, React, NodeJs . N.B.! For more information about the technologies used, see the link below'}
                         viewCode={viewStore}
                     />
+
 
                     <Project
                         link={linkCloudDisk}
@@ -145,8 +164,6 @@ function Projects() {
                             'ReactJS,use Hooks (+ custom hooks),Modal window,  Formik, Pagination, Sorting, Drop-down list, Search, Filtration .'}
                         viewCode={viewCodeSMP}
                     />
-
-
 
 
                 </div>
