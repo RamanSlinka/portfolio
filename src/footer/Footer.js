@@ -33,7 +33,7 @@ function Footer() {
                             instagram
                         </a></div>
                 </div>
-                <h3>© 2021 All rights reserved</h3>
+                <h3>© 2023 All rights reserved</h3>
             </div>
 
         </div>

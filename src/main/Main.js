@@ -10,9 +10,9 @@ import Particles from "react-tsparticles";
 
 
 const particlesOptions = {
-    fpsLimit: 60,
+    fpsLimit: 20,
     interactivity: {
-        detectsOn: "canvas",
+        detectsOn: "window",
         events: {
             onClick: {
                 enable: true,
@@ -42,13 +42,13 @@ const particlesOptions = {
     },
     particles: {
         color: {
-            value: "#4e93e6",
+            value: "#0334f6",
         },
         links: {
             color: "#ffffff",
             distance: 150,
             enable: true,
-            opacity: 0.5,
+            opacity: 0.2,
             width: 1,
         },
         collisions: {
@@ -59,7 +59,7 @@ const particlesOptions = {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 2,
+            speed: 1,
             straight: false,
         },
         number: {
