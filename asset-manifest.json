@@ -1,31 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6d349f6f.chunk.css",
-    "main.js": "/portfolio/static/js/main.6b277d74.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6b277d74.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.46e0ca10.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.46e0ca10.js.map",
-    "static/js/2.15fa747c.chunk.js": "/portfolio/static/js/2.15fa747c.chunk.js",
-    "static/js/2.15fa747c.chunk.js.map": "/portfolio/static/js/2.15fa747c.chunk.js.map",
-    "static/js/3.744db52e.chunk.js": "/portfolio/static/js/3.744db52e.chunk.js",
-    "static/js/3.744db52e.chunk.js.map": "/portfolio/static/js/3.744db52e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.9fa0e870.css",
+    "main.js": "/portfolio/static/js/main.6dd42bdb.js",
+    "static/js/787.b9ec5bb0.chunk.js": "/portfolio/static/js/787.b9ec5bb0.chunk.js",
+    "static/media/myPhoto.jpg": "/portfolio/static/media/myPhoto.d9a45eb1b7c5b1ce20ee.jpg",
+    "static/media/Raman Slinka .gif": "/portfolio/static/media/Raman Slinka .0ea3a7c0e3b9ae0b2357.gif",
+    "static/media/Raman_Slinka_cv.pdf": "/portfolio/static/media/Raman_Slinka_cv.23ed67cc0a699a7480ed.pdf",
+    "static/media/social-network.jpg": "/portfolio/static/media/social-network.89b54fdde22bd98e5ef6.jpg",
+    "static/media/task-list.jpeg": "/portfolio/static/media/task-list.ad4a42a6165f7fbadbfc.jpeg",
+    "static/media/CV(new).pdf": "/portfolio/static/media/CV(new).9c1699753a7d824e8311.pdf",
+    "static/media/cloud.jpg": "/portfolio/static/media/cloud.c88e32353337f29abc70.jpg",
+    "static/media/website_1.jpg": "/portfolio/static/media/website_1.66ed688b46f2cc03b526.jpg",
+    "static/media/post1.jpg": "/portfolio/static/media/post1.9673df4d1a654fc47b79.jpg",
+    "static/media/pizza-labels.jpg": "/portfolio/static/media/pizza-labels.298aff83bbdda3ca3599.jpg",
+    "static/media/burger.jpg": "/portfolio/static/media/burger.b945e5cc6c4dc32b1eca.jpg",
+    "static/media/video_distribution.jpg": "/portfolio/static/media/video_distribution.63e9f2e9de665792a59f.jpg",
     "index.html": "/portfolio/index.html",
-    "static/css/main.6d349f6f.chunk.css.map": "/portfolio/static/css/main.6d349f6f.chunk.css.map",
-    "static/js/2.15fa747c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.15fa747c.chunk.js.LICENSE.txt",
-    "static/media/Raman Slinka .0ea3a7c0.gif": "/portfolio/static/media/Raman Slinka .0ea3a7c0.gif",
-    "static/media/Raman_Slinka_cv.23ed67cc.pdf": "/portfolio/static/media/Raman_Slinka_cv.23ed67cc.pdf",
-    "static/media/cloud.c88e3235.jpg": "/portfolio/static/media/cloud.c88e3235.jpg",
-    "static/media/myPhoto.d9a45eb1.jpg": "/portfolio/static/media/myPhoto.d9a45eb1.jpg",
-    "static/media/pizza-labels.298aff83.jpg": "/portfolio/static/media/pizza-labels.298aff83.jpg",
-    "static/media/post1.9673df4d.jpg": "/portfolio/static/media/post1.9673df4d.jpg",
-    "static/media/social-network.89b54fdd.jpg": "/portfolio/static/media/social-network.89b54fdd.jpg",
-    "static/media/task-list.ad4a42a6.jpeg": "/portfolio/static/media/task-list.ad4a42a6.jpeg",
-    "static/media/website_1.66ed688b.jpg": "/portfolio/static/media/website_1.66ed688b.jpg"
+    "main.9fa0e870.css.map": "/portfolio/static/css/main.9fa0e870.css.map",
+    "main.6dd42bdb.js.map": "/portfolio/static/js/main.6dd42bdb.js.map",
+    "787.b9ec5bb0.chunk.js.map": "/portfolio/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.46e0ca10.js",
-    "static/js/2.15fa747c.chunk.js",
-    "static/css/main.6d349f6f.chunk.css",
-    "static/js/main.6b277d74.chunk.js"
+    "static/css/main.9fa0e870.css",
+    "static/js/main.6dd42bdb.js"
   ]
 }
