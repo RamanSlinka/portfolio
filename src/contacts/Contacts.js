@@ -14,12 +14,13 @@ function Contacts() {
 
     const formRef = useRef(null)
     let sendEmail = () => {
-        emailjs.send('service_eppp92p', 'template_9x2ipjy',
+        emailjs.send('service_tqyq6kj', 'template_9x2ipjy',
             {
                 to_name: formik.values.userName,
                 from_name: formik.values.email,
                 message: formik.values.textarea
-            }, 'user_mnUCEEr4By9wSIzyUVj9X')
+            }, 'nzNTTdjJF4OfXs4sH')    //Public Key
+
             .then(() => {
 
                 setSuccess(true);
