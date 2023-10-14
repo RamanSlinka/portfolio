@@ -3,7 +3,17 @@ import s from './Skills.module.scss'
 import styleContainer from '../common/styles/Container.module.scss'
 import Skill from "./skill/Skill";
 import Title from "../common/Components/Title/Title";
-import {SiTypescript, SiNextdotjs, SiRedux, SiHtml5, SiCss3, SiJavascript, SiReact, SiJest} from 'react-icons/si';
+import {
+    SiTypescript,
+    SiNextdotjs,
+    SiRedux,
+    SiHtml5,
+    SiCss3,
+    SiJavascript,
+    SiReact,
+    SiJest,
+    SiAngular, SiReactivex
+} from 'react-icons/si';
 import {DiSass} from 'react-icons/di';
 import {FaGit, FaNetworkWired} from 'react-icons/fa';
 import Zoom from "react-reveal/Zoom";
@@ -29,10 +39,28 @@ function Skills() {
 
                     <Zoom clear>
                         <Skill
+                            icon={<SiAngular/>}
+                            title={'Angular'}
+                            description={'SPA, Components, Module, Service, Pipes, Data binding, Forms, Routing, ' +
+                                'Change detection, Dependency Injection,REST API + HTTP,  etc...'}
+                        />
+                    </Zoom>
+
+                    <Zoom clear>
+                        <Skill
+                            icon={<SiReactivex/>}
+                            title={'RxJs'}
+                            description={' Observable, Observers, Subjects, Operators, types of unsubscriptions, cold/hot observable,  etc...'}
+                        />
+                    </Zoom>
+
+                    <Zoom clear>
+                        <Skill
                             icon={<SiReact/>}
                             title={'React'}
                             description={'SPA, Props, Route, UI, BLL, State, VirtualDOM, FLUX, REST API, Pure function, Hooks, UseEffect, High Order Component (hoc), Life cycle methods, ComponentDidMount, etc...'}
-                        /></Zoom>
+                        />
+                    </Zoom>
 
                     <Zoom clear>
                         <Skill
@@ -41,6 +69,8 @@ function Skills() {
                             description={' Connect, Reducer, Action creator, Dispatch, Redux-ducks, MapStateToProps, Redux-form,  DAL,  mapDispatchToProps, etc...'}
                         />
                     </Zoom>
+
+
 
 
 
@@ -94,8 +124,9 @@ function Skills() {
                         <Skill
                             icon={<RiTeamLine/>}
                             title={'Teamwork'}
-                            description={'Project development in a team of 4 people. Planning, discussion, decision making. Team meetings.\n' +
-                            'Review code. Working with GIT.'}
+                            description={'Project development in a team. Working in an AGILE environment. SCRUM.' +
+                                ' Planning, discussion, decision making. Team meetings.\n' +
+                            'Review code. Working with GIT. GitLab.'}
                         />
                     </Zoom>
 
