@@ -5,22 +5,19 @@ import Skill from "./skill/Skill";
 import Title from "../common/Components/Title/Title";
 import {
     SiTypescript,
-    SiNextdotjs,
     SiRedux,
     SiHtml5,
     SiCss3,
     SiJavascript,
     SiReact,
     SiJest,
-    SiAngular, SiReactivex
+    SiAngular, SiReactivex, SiJirasoftware
 } from 'react-icons/si';
 import {DiSass} from 'react-icons/di';
 import {FaGit, FaNetworkWired} from 'react-icons/fa';
 import Zoom from "react-reveal/Zoom";
 import {GrNode} from "react-icons/gr";
 import {RiTeamLine} from "react-icons/ri";
-//import Zoom from "react-reveal/Zoom";
-//import Zoom from "react-reveal/Zoom";
 
 function Skills() {
     return (
@@ -89,13 +86,13 @@ function Skills() {
                             description={'Basic Types, Classes, Advanced Types, Declaration Merging, Decorators, Enums, Functions, Interfaces, JSX, Mixins,Modules, Namespaces, Symbols, etc...'}
                         />
                     </Zoom>
-                    <Zoom clear>
-                        <Skill
-                            icon={<SiNextdotjs/>}
-                            title={'Next JS'}
-                            description={'Pages & Routes,Dynamic Routes, Layout & Components, Pages Navigation & Redirecting, Styles, Images & Metadata, Fetching Data, SSR & SSG, API Creation, etc...'}
-                        />
-                    </Zoom>
+                    {/*<Zoom clear>*/}
+                    {/*    <Skill*/}
+                    {/*        icon={<SiNextdotjs/>}*/}
+                    {/*        title={'Next JS'}*/}
+                    {/*        description={'Pages & Routes,Dynamic Routes, Layout & Components, Pages Navigation & Redirecting, Styles, Images & Metadata, Fetching Data, SSR & SSG, API Creation, etc...'}*/}
+                    {/*    />*/}
+                    {/*</Zoom>*/}
                     <Zoom clear>
                         <Skill
                             icon={<GrNode/>}
@@ -114,7 +111,7 @@ function Skills() {
                         <Skill
                             icon={<SiJest/>}
                             title={'JEST'}
-                            description={'Using for testing reducers in SPA'}
+                            description={'Using for testing reducers in SPA. Jasmine.'}
                         />
 
                     </Zoom>
@@ -141,7 +138,7 @@ function Skills() {
                         <Skill
                             icon={<SiCss3/>}
                             title={'CSS'}
-                            description={'Selectors, Animation, FlexBox and Grid, Bootstrap, CanIUse, Table layout, WebPack, Media queries, Gulp, Mobile layout, etc...'}
+                            description={'Angular Material. Selectors, Animation, FlexBox and Grid, Bootstrap, CanIUse, Table layout, WebPack, Media queries, Gulp, Mobile layout, etc...'}
                         />
                     </Zoom>
 
@@ -150,6 +147,13 @@ function Skills() {
                             icon={<DiSass/>}
                             title={'SCSS'}
                             description={' Css preprocessors (Sass, Less)'}
+                        /></Zoom>
+
+                    <Zoom clear>
+                        <Skill
+                            icon={<SiJirasoftware />}
+                            title={'Jira'}
+                            description={'Jira. Working in team-based, Agile environment to accomplish objectives by deadlines'}
                         /></Zoom>
 
 

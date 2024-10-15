@@ -4,8 +4,7 @@ import styles from '../my works/work/Project.module.scss'
 
 import styleContainer from "../common/styles/Container.module.scss";
 import Title from "../common/Components/Title/Title";
-import CV from "../assets/files/Raman_Slinka_cv.pdf"
-import CV_new from "../assets/files/CV(new).pdf"
+import CV_new from "../assets/files/CV_Raman_S_Angular.pdf"
 import Svg_CV from "../assets/files/Raman Slinka .gif"
 
 function DistantWork() {
