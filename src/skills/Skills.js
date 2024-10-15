@@ -5,7 +5,6 @@ import Skill from "./skill/Skill";
 import Title from "../common/Components/Title/Title";
 import {
     SiTypescript,
-    SiNextdotjs,
     SiRedux,
     SiHtml5,
     SiCss3,
@@ -19,8 +18,6 @@ import {FaGit, FaNetworkWired} from 'react-icons/fa';
 import Zoom from "react-reveal/Zoom";
 import {GrNode} from "react-icons/gr";
 import {RiTeamLine} from "react-icons/ri";
-//import Zoom from "react-reveal/Zoom";
-//import Zoom from "react-reveal/Zoom";
 
 function Skills() {
     return (
